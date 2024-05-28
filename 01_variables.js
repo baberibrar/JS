@@ -1,7 +1,7 @@
 const accountId = 1122
 let accountEmail = "baberibrar@gmail.com"
 var accountPassword = "123456"
-accountCity = "Lahore"
+let accountCity = "Lahore"
 let accountState;
 
 // console.log(typeof accountEmail);
