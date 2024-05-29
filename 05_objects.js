@@ -24,3 +24,17 @@ JsUser.greetingTwo = function (){
 // console.log(JsUser[mySym])
 console.log(JsUser)
 // console.log(JsUser.greetingTwo())
+
+let person = {
+    name: "Baber",
+    age: 22,
+}
+
+person.name = "Ali"
+
+console.log(person)
+
+let selectedColors = ["red", "blue"]
+selectedColors[2] = 1;
+
+console.log(selectedColors[0])
