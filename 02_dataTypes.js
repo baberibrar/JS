@@ -24,4 +24,4 @@ let state = null
 // console.table([name, age, isLoggedIn, state])
 
 console.log(typeof undefined)
-console.log(typeof null)
+console.log(typeof state)
