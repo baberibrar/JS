@@ -28,3 +28,7 @@ console.log(myHobbies);
 // 6. slice() - Returns a portion of an array
 const newHobbies = myHobbies.slice(1, 3);
 console.log(newHobbies);
+
+// 7. concat() - Merges two or more arrays
+const hobbies = myHobbies.concat(newHobbies);
+console.log(hobbies);
