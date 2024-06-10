@@ -11,3 +11,40 @@ if (true) {
 }
 
 console.log(a, b, c) // 10 20 60
+
+
+function one(){
+  const userName = "baber"
+
+  function two(){
+    const webSite = "baber.com"
+    console.log(userName)
+  }
+  // console.log(webSite)
+
+  two()
+}
+
+one()
+
+
+if (true){
+  const userName = 'baber'
+  if (userName === "baber") {
+    const webSite = "baber.com"
+    console.log(userName + webSite)
+  }
+}
+
+function addone(num){
+  const result = num + 1
+  console.log(result)
+}
+
+addone(5)
+
+
+const addTwo = function(num){
+  return num + 2
+}
+addTwo(5)
