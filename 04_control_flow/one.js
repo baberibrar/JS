@@ -12,5 +12,3 @@ if (temprature > 30) {
 } else if (temprature <= 30) {
     console.log('Its cold outside');
 }
-
-// test
