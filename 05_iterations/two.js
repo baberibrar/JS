@@ -18,3 +18,4 @@ do {
     console.log(`Score: ${score}`);
     score++;
 } while (score <= 10);
+
