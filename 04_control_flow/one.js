@@ -23,4 +23,11 @@ if (balance < 500){
     console.log('more than 1000');
 }
 
-// test
+const loggedInFromGoogle = true;
+const loggedInFromFacebook = false;
+
+if (loggedInFromGoogle || loggedInFromFacebook) {
+    console.log('Welcome User');
+} else {
+    console.log('Please login');
+}
