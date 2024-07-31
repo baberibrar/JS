@@ -1,9 +1,9 @@
-// let index = 0
+let index = 0
 
-// while (index <= 10){
-//     console.log(`Index: ${index}`);
-//     index++;
-// }
+while (index <= 10){
+    console.log(`Index: ${index}`);
+    index++;
+}
 
 let myArray = ['flash', 'arrow', 'superman', 'batman'];
 
@@ -18,3 +18,4 @@ do {
     console.log(`Score: ${score}`);
     score++;
 } while (score <= 10);
+
