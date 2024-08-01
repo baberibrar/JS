@@ -1,8 +1,8 @@
-const arr = [1, 2, 3, 4, 5];
-
-for (const element of arr) {
-    console.log(element);
-}
+// const arr = [1, 2, 3, 4, 5];
+//
+// for (const element of arr) {
+//     console.log(element);
+// }
 
 
 const map = new Map([
@@ -13,4 +13,9 @@ const map = new Map([
 
 for (const [key, value] of map) {
     console.log(`${key}: ${value}`);
+}
+
+const mapKeys = map.keys();
+for (const key of mapKeys) {
+    console.log(key);
 }
